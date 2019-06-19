@@ -1,11 +1,11 @@
 <script>
+	import LogoNav from './Nav.svelte'
+	import Greet from './Greet.svelte'
+	import Portfolio from './Portfolio.svelte'
+
 	export let name;
 </script>
 
-<style>
-	h1 {
-		color: purple;
-	}
-</style>
-
-<h1>Hello {name}!</h1>
+<LogoNav/>
+<Greet/>
+<Portfolio/>
