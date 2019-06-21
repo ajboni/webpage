@@ -3,7 +3,7 @@
 	import Greet from './Greet.svelte'
 	import Portfolio from './Portfolio.svelte'
 	import Contact from './Contact.svelte'
-
+	import Footer from './Footer.svelte'
 	export let name;
 </script>
 
@@ -11,3 +11,4 @@
 <Greet/>
 <Portfolio/>
 <Contact/>
+<Footer/>

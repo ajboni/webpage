@@ -20,14 +20,13 @@ a {
 <script>
   import {contactItems} from './contactItems';
   import ContactForm from './ContactForm.svelte';
+  import Separator from './Separator.svelte';
 </script>
 
 <div class="container">
-  <div class="row">
-    <div class="column">
-      <h2>Contact</h2>
-    </div>
-  </div>
+  <Separator>
+    <h2>Contact me</h2>
+  </Separator>
 
   <div class="row">
     {#each contactItems as item,i }
