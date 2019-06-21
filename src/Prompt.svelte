@@ -1,11 +1,16 @@
-<script>
-export let time = 250;
+<style>
+   .prompt.invisible {
+      color: transparent;
+   }
+</style>
 
-let prompt = "\xa0\xa0";
-   setInterval(()=> {    
-        if(prompt == "\xa0\xa0") { prompt = "_" } 
-        else prompt = "\xa0\xa0";
-   },time);
+<script>
+   export let time = 250;
+   let prompt = "";
+      setInterval(()=> {    
+         if(prompt == "visible") { prompt = "invisible" } 
+         else prompt = "visible";
+      },time);
 </script>
 
-<span>{prompt}</span>
+<span class="prompt {prompt}">_</span>

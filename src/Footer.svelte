@@ -28,5 +28,9 @@
 
 <footer>
   <div class="footer-copyright">© Alexis Boni 2019</div>
-  <div class="footer-copyright">Made with <img src="./img/icons8-heart-100.png" alt="love"/> {" with " }<a href="https://svelte.dev/" alt="Svelte"> Svelte</a></div>
+  <div class="footer-copyright">Made with <img src="./img/icons8-heart-100.png" alt="love"/> {" with " }
+    <a href="https://svelte.dev/" alt="Svelte"> Svelte</a> 
+    and 
+    <a href="https://milligram.io/" alt="Milligram"> Milligram</a> 
+  </div>
 </footer>
