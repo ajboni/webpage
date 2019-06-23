@@ -7,6 +7,6 @@ language: node_js
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/build root@aboni.dev:/root/www/landing-page
+  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/build travis@aboni.dev:/www/landing-page
   on:
     branch: master
