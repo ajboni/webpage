@@ -14,3 +14,6 @@ deploy:
   script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/build travis@aboni.dev:/www/landing-page
   on:
     branch: master
+before_script:
+  - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+  - echo -e "Host aboni.dev\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
