@@ -8,9 +8,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(242, 245, 248);
   }
   .footer-copyright {
-    color: rgb(211, 212, 222);
+    color: rgb(99, 99, 102);
     text-align: center;
     display: flex;
     align-items: center;

@@ -66,13 +66,14 @@ function reverseTypewriter(node, { speed = 50 }) {
 <style>
   .container {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 40px;
   }
 </style>
 
 <div class="container">
+<h3>Hello</h3>
   <h1>
-    Hello there! I'm
+    I'm
     {#if animate} 
       <span in:typewriter|local out:reverseTypewriter|local>
         {currentSkill}

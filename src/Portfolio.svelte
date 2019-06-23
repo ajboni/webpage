@@ -2,6 +2,11 @@
   .container h2 {
     text-align: center;
   }
+
+
+  .row .column {
+    margin-bottom: 40px !important;
+  }
   /* .container {
     display: flex;
 
