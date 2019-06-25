@@ -5,13 +5,13 @@ before_install:
   - export PATH="$HOME/.yarn/bin:$PATH"
 language: node_js
 node_js:
-  - 12
+  - "12"
 install: true
 script: "echo skipping test..."
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/build travis@aboni.dev:/www/landing-page
+  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public travis@aboni.dev:/www/landing-page
   on:
     branch: master
 before_script:
