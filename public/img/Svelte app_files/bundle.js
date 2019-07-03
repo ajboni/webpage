@@ -957,7 +957,7 @@ var app = (function () {
       onMount( () => {
         $$invalidate('animate', animate = true);
         setTimeout(() => {
-          console.log("Animate OUT");
+        //   console.log("Animate OUT");
           $$invalidate('animate', animate = false);
           
         },3800);    
@@ -968,7 +968,7 @@ var app = (function () {
           $$invalidate('animate', animate = true);
           setTimeout(() => {
             $$invalidate('animate', animate = false);
-            console.log("Animate OUT");
+            // console.log("Animate OUT");
           },3500);    
         },6000);
       });
