@@ -1,6 +1,6 @@
 before_install:
 - mkdir /tmp/ssh
-- touch /tmb/ssh/deploy_rsa
+- touch /tmp/ssh/deploy_rsa
 - openssl aes-256-cbc -K $encrypted_dded3a778621_key -iv $encrypted_dded3a778621_iv
   -in deploy_rsa.enc -out /tmp/ssh/deploy_rsa -d
 - eval "$(ssh-agent -s)" # Start ssh-agent cache
