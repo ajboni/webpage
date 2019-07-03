@@ -1,10 +1,10 @@
 before_install:
-- ssh-add /tmp/deploy_rsa
-- eval "$(ssh-agent -s)"
-- chmod 600 /tmp/deploy_rsa
-- echo -e "Host $SERVER_IP_ADDRESS\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-- ssh-add ./tmp/deploy_rsa
-- ssh -i /tmp/deploy_rsa travis@aboni.dev pwd
+- openssl aes-256-cbc -K $encrypted_dded3a778621_key -iv $encrypted_dded3a778621_iv
+  -in deploy_rsa.enc -out ~\/.ssh/deploy_rsa -d
+- chmod 600 ~\/.ssh/deploy_rsa
+- echo -e "Host $SERVER_IP_ADDRESS\n\tStrictHostKeyChecking no\n" >> ~\/.ssh/config
+- ssh-add ~\/.ssh/
+- ssh -i ~\/.ssh/ travis@aboni.dev pwd
 - curl -o- -L https://yarnpkg.com/install.sh | bash
 - export PATH="$HOME/.yarn/bin:$PATH"
 language: node_js
@@ -21,5 +21,3 @@ deploy:
 before_script:
 - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - echo -e "Host aboni.dev\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-dd:
-  secure: mU74SUH0cHX+GXn+ZTedJRjJLu9LIshkWyrnxrkFtO3mqAXR0YuFp1opadczUYfLSNH9aEaaobjMpC61+EX6KS/CUxLY/TTBKiQTr1bnQPzHQUKLhNQ4ZhlZ2bo3xYBoK64pX/+yTKgRHM2z83QAhZ0rR8QsQnySBOb+mvKXFK9JA8IiN9QjePV151UvUGf9KmJxL8QiXprM+VLgaFFt1WVR+kKlLz5/8FyGZWP+RRy/rTflFyDpqDr2TfdbTlRC7l8ts3fvpZ81kU2HXi5np65KSB+vEjdG0vXFPLEfi+eX0FGXQ3pMc75CqhGoUaK0f42kLbwVjW7cK7JNMcrUXlvky7oVSMDocO58tqcFaEZDg4HrQalBqrWdjAeneYRgaR50q93OxrjC60MhoKvhXHNijVY7FcMtkLN4bLr9afYqbzclKRQVqOyR5uom+8h1DkklGlRw3gCKF4Z1yW6er7nCP4/iTZ4n1NKbdad15I/YEY+z2l4d/xGYQgT7Bq2wq6an9KkIIkcdQ9LKCIhwXF9oHDc34O0VrM5a7WbCoDMI3TQOuUpEYHxU72Zq8lPjuS80XudZ3Km+/2lO+CCnX/UZO20UZm0QejSYDChL5hYcfOry+/rx/wxyKYbEcxUesjChfkWrzI9+YcgFe4b+uJNV9+NOPRkvPooXGMMdZoc=
