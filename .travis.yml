@@ -15,7 +15,7 @@ language: node_js
 node_js:
   - "12"
 install:
-  - rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public travis@aboni.dev:/www/landing-page
+  - rsync -r --delete-after ./public travis@aboni.dev:/www/landing-page
 script: echo skipping test...
 # deploy:
 #   provider: script
