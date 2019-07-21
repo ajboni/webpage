@@ -84,7 +84,7 @@
   <h1>
     I'm
     {#if animate}
-      <span in:typewriter out:reverseTypewriter> {currentSkill} </span>
+      <span in:typewriter out:reverseTypewriter>{currentSkill}</span>
     {/if}
     <Prompt />
   </h1>
@@ -101,9 +101,13 @@
         I'm a self-hosted, DIY and FOSS ethusiast and always looking for fun
         projects.
       </p>
-      <button>
-        <a href="mailto:mail@aboni.dev">Contact Me!</a>
-      </button>
+      <a href="mailto:mail@aboni.dev">
+        <button style="width: 150px">Contact Me!</button>
+      </a>
+      <a href="https://blog.aboni.dev" target="__blank">
+
+        <button style="width: 150px">Blog</button>
+      </a>
     </div>
 
   </div>

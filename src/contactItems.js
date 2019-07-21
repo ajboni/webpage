@@ -6,6 +6,13 @@ export const contactItems = [
     img: "./img/icons8-email-sign-100.png"
   },
   {
+    id: 11,
+    title: "Blog",
+    url: "https://blog.aboni.dev",
+    img: "./img/icons8-blog-96.png"
+  },
+
+  {
     id: 2,
     title: "Github",
     url: "https://github.com/ajboni/",
