@@ -69,6 +69,10 @@
 </script>
 
 <style>
+  a {
+    color: inherit;
+  }
+
   .container {
     text-align: center;
     margin-top: 40px;
@@ -97,7 +101,9 @@
         I'm a self-hosted, DIY and FOSS ethusiast and always looking for fun
         projects.
       </p>
-      <button>Contact Me!</button>
+      <button>
+        <a href="mailto:mail@aboni.dev">Contact Me!</a>
+      </button>
     </div>
 
   </div>

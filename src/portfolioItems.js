@@ -64,5 +64,17 @@ export const portfolioItems = [
     img: "img/pbs.png",
     url: "https://pointbleepstudios.itch.io/",
     icon: "img/icons8-control-96.png"
+  },
+  {
+    id: 7,
+    title: "Anotador de Truco Simple ",
+    description:
+      "Really simple, free, no-ads and open source anottation tool for the popular argentinean game 'Truco'",
+    category: "Game Development",
+    skills: ["Godot", "GDScript", "Google Play"],
+    img: "img/anotador_truco.png",
+    url:
+      "https://play.google.com/store/apps/details?id=anotador.de.truco.simple&hl=es_419",
+    icon: "img/google_play.png"
   }
 ];
