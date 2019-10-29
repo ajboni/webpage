@@ -92,7 +92,7 @@
   <div class="row">
     <div class="column">
       <p in:typewriter>
-        I'm a 33 years old IT Professional with over 10 years of hands-on
+        I'm a 34 years old IT Professional with over 10 years of hands-on
         experience.
         <br />
         I'm currently learning skills about webdev, devOps, kubernetes, gamedev,

@@ -24,12 +24,12 @@ export const contactItems = [
     url: "https://gitlab.com/ajboni",
     img: "./img/icons8-gitlab-100.png"
   },
-  {
-    id: 4,
-    title: "Twitter",
-    url: "https://twitter.com/rdbdlf",
-    img: "./img/icons8-twitter-100.png"
-  },
+  // {
+  //   id: 4,
+  //   title: "Twitter",
+  //   url: "https://twitter.com/rdbdlf",
+  //   img: "./img/icons8-twitter-100.png"
+  // },
   {
     id: 5,
     title: "Youtube",

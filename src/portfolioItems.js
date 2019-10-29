@@ -1,6 +1,17 @@
 export const portfolioItems = [
   {
     id: 1,
+    title: "Scram (WIP)",
+    description:
+      "Slot Car Race Manager, server, and racer database for DIY slot car racer track controlled by Arduino. A rather complex project combining several technologies that I was interested in learning.",
+    category: "App Development",
+    skills: ["React", "Mobx", "GraphQL", "Hasura", "Postgres", "CI/CD","Python", "Arduino", "SocketIO", "Flask"],
+    img: "img/scram.png",
+    url: "https://github.com/ajboni/slot-car-race-manager",
+    icon: "img/icons8-car-64.png"
+  },
+  {
+    id: 2,
     title: "Speechr",
     description:
       "Speechr is a collaborative design and development tool for easy and organised game development.",
@@ -11,7 +22,7 @@ export const portfolioItems = [
     icon: "img/speechr-icon.png"
   },
   {
-    id: 2,
+    id: 3,
     title: "How To Cope With Boredom and Loneliness",
     description:
       "A free Steam game I've made with @poffle as Point Bleep Studios",
@@ -23,7 +34,7 @@ export const portfolioItems = [
     icon: "img/icons8-steam-96.png"
   },
   {
-    id: 3,
+    id: 4,
     title: "Personal Portfolio Website",
     description:
       "Landing page for my portfolio (this site). A great excuse to learn about Svelte.",
@@ -34,7 +45,7 @@ export const portfolioItems = [
     icon: "img/icons8-web-design-96.png"
   },
   {
-    id: 4,
+    id: 5,
     title: "Speechr Website",
     description:
       "Landing page for Speechr app, made with react, bootrap and semantic UI",
@@ -45,7 +56,7 @@ export const portfolioItems = [
     icon: "img/icons8-web-design-96.png"
   },
   {
-    id: 5,
+    id: 6,
     title: "The Mind Of Marlo",
     description: "A Steam game I've made with @poffle as Point Bleep Studios",
     category: "Game Development",
@@ -55,7 +66,7 @@ export const portfolioItems = [
     icon: "img/icons8-steam-96.png"
   },
   {
-    id: 6,
+    id: 7,
     title: "Anotador de Truco Simple ",
     description:
       "Really simple, free, no-ads and open source anottation tool for the popular argentinean game 'Truco'",
@@ -67,7 +78,7 @@ export const portfolioItems = [
     icon: "img/google_play.png"
   },
   {
-    id: 7,
+    id: 8,
     title: "Arduino Midi Foot Controller",
     description: "A simple midi (foot) controller for Arduino Uno  ",
     category: "App Development",
@@ -78,7 +89,7 @@ export const portfolioItems = [
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Point Bleep Studios Games",
     description:
       "Under the name of Point Bleep Studios, @poffle and I developed several games that can be played for free at itch.io ",

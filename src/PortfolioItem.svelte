@@ -10,7 +10,7 @@
     margin-bottom: 15px;
     min-height: 100%;
 
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.17), 0 10px 10px rgba(0, 0, 0, 0.17);
     display: flex;
     flex-direction: column;
     padding: 10px;
