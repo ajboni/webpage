@@ -29,7 +29,7 @@ export const portfolioItems = [
 		category: "App Development",
 		skills: ["React", "Mobx", "Electron", "Pouchdb", "Couchdb", "CI/CD"],
 		img: "img/speechr.png",
-		url: "https://speechr.aboni.dev/",
+		url: "https://baj.itch.io/speechr",
 		icon: "img/speechr-icon.png"
 	},
 	{
