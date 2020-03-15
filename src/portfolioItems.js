@@ -1,5 +1,27 @@
 export const portfolioItems = [
 	{
+		id: 12,
+		title: "Pomodolfo",
+		description:
+			"Extremely simple multiplatform pomodoro timer for desktop.",
+		category: "App Development",
+		skills: ["Svelte", "Electron", "Bulma", "Butler"],
+		img: "img/pomodolfo.png",
+		url: "https://baj.itch.io/pomodolfo",
+		icon: "img/pomodolfo-icon.png"
+	},
+	{
+		id: 11,
+		title: "Svelte Static Blog Generator",
+		description:
+			"Static blog generator powered by svelte, sapper and tailwindcss .",
+		category: "App Development",
+		skills: ["Svelte", "Sapper", "TailwindCSS", "Travis"],
+		img: "img/blog.png",
+		url: "https://github.com/ajboni/svelte-sapper-static-blog",
+		icon: "img/icons8-pencil-64.png"
+	},
+	{
 		id: 10,
 		title: "TXTdit",
 		description:

@@ -1120,6 +1120,28 @@ var app = (function () {
 
     const portfolioItems = [
     	{
+    		id: 12,
+    		title: "Pomodolfo",
+    		description:
+    			"Extremely simple multiplatform pomodoro timer for desktop.",
+    		category: "App Development",
+    		skills: ["Svelte", "Electron", "Bulma", "Butler"],
+    		img: "img/pomodolfo.png",
+    		url: "https://baj.itch.io/pomodolfo",
+    		icon: "img/pomodolfo-icon.png"
+    	},
+    	{
+    		id: 11,
+    		title: "Svelte Static Blog Generator",
+    		description:
+    			"Static blog generator powered by svelte, sapper and tailwindcss .",
+    		category: "App Development",
+    		skills: ["Svelte", "Sapper", "TailwindCSS", "Travis"],
+    		img: "img/blog.png",
+    		url: "https://github.com/ajboni/svelte-sapper-static-blog",
+    		icon: "img/icons8-pencil-64.png"
+    	},
+    	{
     		id: 10,
     		title: "TXTdit",
     		description:
@@ -1149,7 +1171,7 @@ var app = (function () {
     		category: "App Development",
     		skills: ["React", "Mobx", "Electron", "Pouchdb", "Couchdb", "CI/CD"],
     		img: "img/speechr.png",
-    		url: "https://speechr.aboni.dev/",
+    		url: "https://baj.itch.io/speechr",
     		icon: "img/speechr-icon.png"
     	},
     	{
@@ -2676,29 +2698,33 @@ var app = (function () {
     }
 
     const skillsItems = {
-        it: [
-            "Network Planning, Cisco CCNA level: Routing and switching",
-            "Router/Firewall administration",
-            "Widows/Linux Server Administration",
-            "Virtualization with VMWare and Proxmox",
-            "Technology implementation of essential enterprise solutions (Directory services, antivirus , backup services,  policies etc)",
-            "Software and Hardware Logging and monitoring",
-            "Project Management and Team Leader",
-            "Tech Support (Software and Hardware)",
-            "Equipment Configuration and commisioning",
-            "Devops, kubernetes, docker, IaaC"
-        ],
-        dev: [
-            "Web App Development: JS, HTML, CSS, React, etc.",
-            "Game Development with Unity 3D and Godot Engine",
-            "python, c#, vba, excel, php"
-        ],
-        misc: [
-            "4 Years of English-Spanish translation specializing in computer science and technical translation",
-            "Successfully finished Cisco CCNA official course (certification pending)",
-            "Music and Audio Production, Mixing and Mastering.",
-            "English level, written: bilingual, spoken: medium"
-        ]
+    	it: [
+    		"Network Planning, Cisco CCNA level: Routing and switching",
+    		"Router/Firewall administration",
+    		"Widows/Linux Server Administration",
+    		"Virtualization with VMWare and Proxmox",
+    		"Technology implementation of essential enterprise solutions (Directory services, antivirus , backup services,  policies etc)",
+    		"Software and Hardware Logging and monitoring",
+    		"Project Management and Team Leader",
+    		"Tech Support (Software and Hardware)",
+    		"Equipment Configuration and commisioning",
+    	],
+    	dev: [
+    		"Javascript, HTML,CSS",
+    		"ReactJS, Svelte",
+    		"Mobx",
+    		"Antd, TailwindCSS, Bulma",
+    		"Game Development with Unity 3D and Godot Engine",
+    		"Python, c#, vba, excel, php",
+    		"Devops, kubernetes, docker, IaaC",
+
+    	],
+    	misc: [
+    		"4 Years of English-Spanish translation specializing in computer science and technical translation",
+    		"Successfully finished Cisco CCNA official course (certification pending)",
+    		"Music and Audio Production, Mixing and Mastering.",
+    		"English level, written: bilingual, spoken: medium"
+    	]
 
     };
 
