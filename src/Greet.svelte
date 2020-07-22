@@ -4,6 +4,7 @@
   import Prompt from "./Prompt.svelte";
   let animate = false;
   let skills = [
+    "IT infraestructure administrator",
     "a web developer",
     "a network administrator and engineer",
     "a game developer",
