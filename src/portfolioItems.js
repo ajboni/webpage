@@ -16,7 +16,7 @@ export const portfolioItems = [
     category: "Web Development",
     skills: ["Wordpress", "WooCommerce", "Elementor"],
     img: "img/jardeco.png",
-    url: "https://jardec.com.ar",
+    url: "https://jardeco.com.ar",
     icon: "img/icons8-web-design-96.png",
   },
   {

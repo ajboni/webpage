@@ -92,14 +92,13 @@
   <div class="row">
     <div class="column">
       <p in:typewriter>
-        I'm a 34 years old IT Professional with over 10 years of hands-on
-        experience.
+        I'm an IT Professional with over 10 years of hands-on experience.
         <br />
         I'm currently learning skills about webdev, devOps, kubernetes, gamedev,
         music production and linux.
         <br />
-        I'm a self-hosted, DIY and FOSS ethusiast and always looking for fun
-        projects.
+        I'm a self-hosted, Linux, DIY and FOSS ethusiast and always looking for
+        fun projects.
       </p>
       <a href="mailto:mail@aboni.dev">
         <button style="width: 150px">Contact Me!</button>
