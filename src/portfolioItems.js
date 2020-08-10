@@ -1,5 +1,15 @@
 export const portfolioItems = [
   {
+    id: 15,
+    title: "Calvo",
+    description: "A jalv based lv2 plugin rack for your terminal. ",
+    category: "App Development",
+    skills: ["Node.js", "jack", "lv2", "Linux"],
+    img: "img/calvo.png",
+    url: "https://github.com/ajboni/calvo",
+    icon: "img/icons8-github-100.png",
+  },
+  {
     id: 14,
     title: "Airwindows Cheatsheet",
     description: "Cheatsheet for airwindows plugins.",

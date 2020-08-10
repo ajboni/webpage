@@ -12,7 +12,7 @@ export const skillsItems = {
   ],
   dev: [
     "Javascript, HTML,CSS",
-    "ReactJS, Svelte, Mobx",
+    "Node.js, React.js, Svelte, Mobx",
     "Wordpress, WooCommerce",
     "Antd, TailwindCSS, Bulma, Bootstrap, MeterialUI",
     "Game Development with Unity 3D and Godot Engine",
