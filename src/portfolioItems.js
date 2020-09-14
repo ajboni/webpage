@@ -3,7 +3,7 @@ export const portfolioItems = [
     id: 16,
     title: "Docurry",
     description: "A Spicy, Zero-Config Documentation Site Generator ",
-    category: "App Development",
+    category: "Web Development",
     skills: ["Node.js", "HTML", "CSS"],
     img: "img/docurry.jpg",
     url: "https://github.com/ajboni/docurry",
