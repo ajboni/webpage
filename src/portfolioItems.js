@@ -1,5 +1,15 @@
 export const portfolioItems = [
   {
+    id: 16,
+    title: "Docurry",
+    description: "A Spicy, Zero-Config Documentation Site Generator ",
+    category: "App Development",
+    skills: ["Node.js", "HTML", "CSS"],
+    img: "img/docurry.jpg",
+    url: "https://github.com/ajboni/docurry",
+    icon: "img/icons8-github-100.png",
+  },
+  {
     id: 15,
     title: "Calvo",
     description: "A jalv based lv2 plugin rack for your terminal. ",
