@@ -1,4 +1,14 @@
 export const portfolioItems = [
+	{
+		id: 17,
+		title: "Stuck in a drum loop",
+		description: "This game is an experiment done in 72hs for for Ludum Dare 47 game jam. Theme: Stuck in a loop. It's an excuse to learn about Tone.js",
+		category: "Game Development",
+		skills: ["Tone.js","Svelte", "HTML", "CSS"],
+		img: "img/siadl.png",
+		url: "https://github.com/ajboni/ld47-stuck-in-a-drum-loop",
+		icon: "img/icons8-control-96.png",
+	  },
   {
     id: 16,
     title: "Docurry",
