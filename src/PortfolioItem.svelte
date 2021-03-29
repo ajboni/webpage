@@ -50,6 +50,7 @@
   .title img {
     width: 25px;
     height: 25px;
+    margin: 5px 0;
   }
 
   .title a {
@@ -84,7 +85,7 @@
     /* width: 100%; */
   }
   .description {
-    /* font-size: 80%; */
+    font-size: 85%;
     padding: 10px;
   }
 

@@ -1083,9 +1083,8 @@ var app = (function () {
         category: "App Development",
         skills: ["C++", "Arduino", "Electronics"],
         url: "https://github.com/ajboni/archclck",
-        icon: "img/icons8-github-100.png",
+        icon: "img/icons8-chess-clock-96.png",
         img: "img/archclck.jpg",
-        icon: "img/drafft_icon.png",
       },
 
       {
@@ -1097,7 +1096,7 @@ var app = (function () {
         skills: ["React", "GraphQL", "Wordpress", "WooCommerce"],
         img: "img/ateitis.png",
         url: "https://baj.itch.io/drafft",
-        icon: "img/drafft_icon.png",
+        icon: "img/icons8-web-design-96.png",
       },
       {
         id: 17,
@@ -1228,17 +1227,6 @@ var app = (function () {
         icon: "img/icons8-web-design-96.png",
       },
       {
-        id: 5,
-        title: "Speechr Website",
-        description:
-          "Landing page for Speechr app, made with react, bootrap and semantic UI",
-        category: "Web Development",
-        skills: ["React", "Semantic-ui", "Bootstrap"],
-        img: "img/speechr-site.png",
-        url: "https://github.com/ajboni/speechr-website",
-        icon: "img/icons8-web-design-96.png",
-      },
-      {
         id: 6,
         title: "The Mind Of Marlo",
         description: "A Steam game I've made with @poffle as Point Bleep Studios",
@@ -1288,8 +1276,8 @@ var app = (function () {
 
     function add_css$6() {
     	var style = element("style");
-    	style.id = "svelte-p0ydu2-style";
-    	style.textContent = ".card.svelte-p0ydu2.svelte-p0ydu2{border-radius:3px;margin-bottom:15px;min-height:100%;box-shadow:0 14px 28px rgba(0, 0, 0, 0.17), 0 10px 10px rgba(0, 0, 0, 0.17);display:flex;flex-direction:column;padding:10px;border:2px solid #252728}.title.svelte-p0ydu2.svelte-p0ydu2{border-bottom:1px solid #252728;padding-bottom:10px;align-content:center;display:flex;flex-direction:column;justify-content:center;min-height:4em;align-items:center}.title.svelte-p0ydu2 img.svelte-p0ydu2{width:25px;height:25px}.title.svelte-p0ydu2 a.svelte-p0ydu2{text-decoration:none;margin:0;padding:0;color:inherit;text-align:center}.img.svelte-p0ydu2.svelte-p0ydu2{padding:20px;text-align:center}.img.svelte-p0ydu2 img.svelte-p0ydu2{width:100%;border-radius:4px;transition:all 0.2s ease-out;opacity:0.9;max-height:250px;width:250px;object-fit:contain;border:1px solid #ddd}.img.svelte-p0ydu2 img.svelte-p0ydu2:hover{transform:scale(1.1);opacity:1}.description.svelte-p0ydu2.svelte-p0ydu2{padding:10px}.skills.svelte-p0ydu2.svelte-p0ydu2{max-width:100%;display:flex;flex-wrap:wrap;padding:5px 10px 0px 10px}.skill.svelte-p0ydu2.svelte-p0ydu2{border-radius:3px;transition:color 0.2s;margin:0 5x 5px 0;padding:2px 8px;margin-bottom:10px;margin-right:10px;position:relative;font-size:0.6em;background-color:#6f4b86;border-color:#6f4b86}.skill.svelte-p0ydu2.svelte-p0ydu2:hover{background-color:#9b4dca;color:white;cursor:pointer}";
+    	style.id = "svelte-1jun58v-style";
+    	style.textContent = ".card.svelte-1jun58v.svelte-1jun58v{border-radius:3px;margin-bottom:15px;min-height:100%;box-shadow:0 14px 28px rgba(0, 0, 0, 0.17), 0 10px 10px rgba(0, 0, 0, 0.17);display:flex;flex-direction:column;padding:10px;border:2px solid #252728}.title.svelte-1jun58v.svelte-1jun58v{border-bottom:1px solid #252728;padding-bottom:10px;align-content:center;display:flex;flex-direction:column;justify-content:center;min-height:4em;align-items:center}.title.svelte-1jun58v img.svelte-1jun58v{width:25px;height:25px;margin:5px 0}.title.svelte-1jun58v a.svelte-1jun58v{text-decoration:none;margin:0;padding:0;color:inherit;text-align:center}.img.svelte-1jun58v.svelte-1jun58v{padding:20px;text-align:center}.img.svelte-1jun58v img.svelte-1jun58v{width:100%;border-radius:4px;transition:all 0.2s ease-out;opacity:0.9;max-height:250px;width:250px;object-fit:contain;border:1px solid #ddd}.img.svelte-1jun58v img.svelte-1jun58v:hover{transform:scale(1.1);opacity:1}.description.svelte-1jun58v.svelte-1jun58v{font-size:85%;padding:10px}.skills.svelte-1jun58v.svelte-1jun58v{max-width:100%;display:flex;flex-wrap:wrap;padding:5px 10px 0px 10px}.skill.svelte-1jun58v.svelte-1jun58v{border-radius:3px;transition:color 0.2s;margin:0 5x 5px 0;padding:2px 8px;margin-bottom:10px;margin-right:10px;position:relative;font-size:0.6em;background-color:#6f4b86;border-color:#6f4b86}.skill.svelte-1jun58v.svelte-1jun58v:hover{background-color:#9b4dca;color:white;cursor:pointer}";
     	append(document.head, style);
     }
 
@@ -1309,7 +1297,7 @@ var app = (function () {
     		c() {
     			div = element("div");
     			t = text(t_value);
-    			attr(div, "class", "skill svelte-p0ydu2");
+    			attr(div, "class", "skill svelte-1jun58v");
     		},
     		m(target, anchor) {
     			insert(target, div, anchor);
@@ -1378,20 +1366,20 @@ var app = (function () {
 
     			if (img0.src !== (img0_src_value = /*item*/ ctx[0].icon)) attr(img0, "src", img0_src_value);
     			attr(img0, "alt", "");
-    			attr(img0, "class", "svelte-p0ydu2");
+    			attr(img0, "class", "svelte-1jun58v");
     			attr(a0, "href", a0_href_value = /*item*/ ctx[0].url);
     			attr(a0, "target", "__blank");
-    			attr(a0, "class", "svelte-p0ydu2");
-    			attr(div0, "class", "title svelte-p0ydu2");
+    			attr(a0, "class", "svelte-1jun58v");
+    			attr(div0, "class", "title svelte-1jun58v");
     			if (img1.src !== (img1_src_value = /*item*/ ctx[0].img)) attr(img1, "src", img1_src_value);
     			attr(img1, "alt", img1_alt_value = /*item*/ ctx[0].title);
-    			attr(img1, "class", "svelte-p0ydu2");
+    			attr(img1, "class", "svelte-1jun58v");
     			attr(a1, "href", a1_href_value = /*item*/ ctx[0].url);
     			attr(a1, "target", "__blank");
-    			attr(div1, "class", "img svelte-p0ydu2");
-    			attr(div2, "class", "description svelte-p0ydu2");
-    			attr(div3, "class", "skills svelte-p0ydu2");
-    			attr(div4, "class", "card svelte-p0ydu2");
+    			attr(div1, "class", "img svelte-1jun58v");
+    			attr(div2, "class", "description svelte-1jun58v");
+    			attr(div3, "class", "skills svelte-1jun58v");
+    			attr(div4, "class", "card svelte-1jun58v");
     		},
     		m(target, anchor) {
     			insert(target, div4, anchor);
@@ -1484,7 +1472,7 @@ var app = (function () {
     class PortfolioItem extends SvelteComponent {
     	constructor(options) {
     		super();
-    		if (!document.getElementById("svelte-p0ydu2-style")) add_css$6();
+    		if (!document.getElementById("svelte-1jun58v-style")) add_css$6();
     		init(this, options, instance$3, create_fragment$6, safe_not_equal, { item: 0 });
     	}
     }
@@ -2944,8 +2932,8 @@ var app = (function () {
 
     function add_css() {
     	var style = element("style");
-    	style.id = "svelte-zno8xw-style";
-    	style.textContent = ".mainContainer.svelte-zno8xw{background-color:#1d1f21 !important;color:#d6dbdd !important;font-family:\"Droid Sans Mono\", \"monospace\", monospace,\n      \"Droid Sans Fallback\";font-weight:normal;font-size:1.08em}::-moz-selection{background-color:#6f4b86}.container{max-width:75%}::selection{background-color:#6f4b86}";
+    	style.id = "svelte-p7h5iz-style";
+    	style.textContent = ".mainContainer.svelte-p7h5iz{background-color:#1d1f21 !important;color:#d6dbdd !important;font-family:\"Droid Sans Mono\", \"monospace\", monospace,\n      \"Droid Sans Fallback\";font-weight:normal;font-size:1.08em}::-moz-selection{background-color:#6f4b86}::selection{background-color:#6f4b86}";
     	append(document.head, style);
     }
 
@@ -2984,7 +2972,7 @@ var app = (function () {
     			create_component(contact.$$.fragment);
     			t4 = space();
     			create_component(footer.$$.fragment);
-    			attr(div, "class", "mainContainer svelte-zno8xw");
+    			attr(div, "class", "mainContainer svelte-p7h5iz");
     		},
     		m(target, anchor) {
     			insert(target, div, anchor);
@@ -3046,7 +3034,7 @@ var app = (function () {
     class App extends SvelteComponent {
     	constructor(options) {
     		super();
-    		if (!document.getElementById("svelte-zno8xw-style")) add_css();
+    		if (!document.getElementById("svelte-p7h5iz-style")) add_css();
     		init(this, options, instance, create_fragment, safe_not_equal, { name: 0 });
     	}
     }

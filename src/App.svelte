@@ -32,11 +32,6 @@
     background-color: #6f4b86;
   }
 
-  :global(.container) {
-    /* Code for Firefox */
-    max-width: 75%;
-  }
-
   :global(::selection) {
     background-color: #6f4b86;
   }

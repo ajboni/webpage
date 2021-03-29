@@ -19,9 +19,8 @@ export const portfolioItems = [
     category: "App Development",
     skills: ["C++", "Arduino", "Electronics"],
     url: "https://github.com/ajboni/archclck",
-    icon: "img/icons8-github-100.png",
+    icon: "img/icons8-chess-clock-96.png",
     img: "img/archclck.jpg",
-    icon: "img/drafft_icon.png",
   },
 
   {
@@ -33,7 +32,7 @@ export const portfolioItems = [
     skills: ["React", "GraphQL", "Wordpress", "WooCommerce"],
     img: "img/ateitis.png",
     url: "https://baj.itch.io/drafft",
-    icon: "img/drafft_icon.png",
+    icon: "img/icons8-web-design-96.png",
   },
   {
     id: 17,
@@ -161,17 +160,6 @@ export const portfolioItems = [
     skills: ["Svelte", "Milligram", "CI/CD"],
     img: "img/portfolio.png",
     url: "https://github.com/ajboni/webpage",
-    icon: "img/icons8-web-design-96.png",
-  },
-  {
-    id: 5,
-    title: "Speechr Website",
-    description:
-      "Landing page for Speechr app, made with react, bootrap and semantic UI",
-    category: "Web Development",
-    skills: ["React", "Semantic-ui", "Bootstrap"],
-    img: "img/speechr-site.png",
-    url: "https://github.com/ajboni/speechr-website",
     icon: "img/icons8-web-design-96.png",
   },
   {
