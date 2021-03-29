@@ -10,7 +10,7 @@
     "a game developer",
     "a devOps engineer",
     "a music maker",
-    "Linux, OSS, and DIY enthusiast"
+    "Linux, OSS, and DIY enthusiast",
   ];
   let currentSkill = skills[0];
   let currentSkillIndex = 0;
@@ -46,10 +46,10 @@
     const duration = text.length * speed;
     return {
       duration,
-      tick: t => {
+      tick: (t) => {
         const i = ~~(text.length * t);
         node.textContent = text.slice(0, i);
-      }
+      },
     };
   }
 
@@ -61,24 +61,13 @@
     return {
       duration: duration,
       delay: 300,
-      css: t => `
-                  background-color: #9b4dca; 
+      css: (t) => `
+                  background-color: #6f4b86; 
                   color: #FFFFFF; 
-                `
+                `,
     };
   }
 </script>
-
-<style>
-  a {
-    color: inherit;
-  }
-
-  .container {
-    text-align: center;
-    margin-top: 40px;
-  }
-</style>
 
 <div class="container">
   <h3>Hello</h3>
@@ -98,17 +87,37 @@
         I'm currently learning skills about webdev, devOps, kubernetes, gamedev,
         music production and linux.
         <br />
-        I'm a self-hosted, Linux, DIY and FOSS ethusiast and always looking for
-        fun projects.
+        I'm a self-hosted, Linux, DIY and FOSS ethusiast and always looking for fun
+        projects.
       </p>
       <a href="mailto:mail@aboni.dev">
         <button style="width: 150px">Contact Me!</button>
       </a>
       <a href="https://blog.aboni.dev" target="__blank">
-
         <button style="width: 150px">Blog</button>
       </a>
     </div>
-
   </div>
 </div>
+
+<style>
+  a {
+    color: inherit;
+  }
+
+  .container {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  button {
+    background-color: #6f4b86;
+    border-color: #6f4b86;
+  }
+  button:hover {
+    background-color: #9b4dca;
+    border-color: #9b4dca;
+    color: white;
+    cursor: pointer;
+  }
+</style>

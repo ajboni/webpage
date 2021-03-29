@@ -1,14 +1,51 @@
 export const portfolioItems = [
-	{
-		id: 17,
-		title: "Stuck in a drum loop",
-		description: "This game is an experiment done in 72hs for for Ludum Dare 47 game jam. Theme: Stuck in a loop. It's an excuse to learn about Tone.js",
-		category: "Game Development",
-		skills: ["Tone.js","Svelte", "HTML", "CSS"],
-		img: "img/siadl.png",
-		url: "https://github.com/ajboni/ld47-stuck-in-a-drum-loop",
-		icon: "img/icons8-control-96.png",
-	  },
+  {
+    id: 20,
+    title: "Drafft",
+    description:
+      "Drafft is a collaborative design and development tool for easy and organised game development.",
+    category: "App Development",
+    skills: ["React", "Mobx", "Electron", "Pouchdb", "Couchdb", "CI/CD"],
+    img: "img/drafft.jpg",
+    url: "https://baj.itch.io/drafft",
+    icon: "img/drafft_icon.png",
+  },
+
+  {
+    id: 19,
+    title: "Arduino Chess Clock",
+    description:
+      "archckl - A simple but functional chess clock made with arduino nano and a few components.",
+    category: "App Development",
+    skills: ["C++", "Arduino", "Electronics"],
+    url: "https://github.com/ajboni/archclck",
+    icon: "img/icons8-github-100.png",
+    img: "img/archclck.jpg",
+    icon: "img/drafft_icon.png",
+  },
+
+  {
+    id: 18,
+    title: "Ateitis Corp",
+    description:
+      "Headless CMS and Ecommerce for Ateitis Corp made with React, Gatsby and Wordpress.",
+    category: "Web Development",
+    skills: ["React", "GraphQL", "Wordpress", "WooCommerce"],
+    img: "img/ateitis.png",
+    url: "https://baj.itch.io/drafft",
+    icon: "img/drafft_icon.png",
+  },
+  {
+    id: 17,
+    title: "Stuck in a drum loop",
+    description:
+      "This game is an experiment done in 72hs for for Ludum Dare 47 game jam. Theme: Stuck in a loop. It's an excuse to learn about Tone.js",
+    category: "Game Development",
+    skills: ["Tone.js", "Svelte", "HTML", "CSS"],
+    img: "img/siadl.png",
+    url: "https://github.com/ajboni/ld47-stuck-in-a-drum-loop",
+    icon: "img/icons8-control-96.png",
+  },
   {
     id: 16,
     title: "Docurry",
@@ -102,17 +139,6 @@ export const portfolioItems = [
     img: "img/scram.png",
     url: "https://github.com/ajboni/slot-car-race-manager",
     icon: "img/icons8-car-64.png",
-  },
-  {
-    id: 2,
-    title: "Speechr",
-    description:
-      "Speechr is a collaborative design and development tool for easy and organised game development.",
-    category: "App Development",
-    skills: ["React", "Mobx", "Electron", "Pouchdb", "Couchdb", "CI/CD"],
-    img: "img/speechr.png",
-    url: "https://baj.itch.io/speechr",
-    icon: "img/speechr-icon.png",
   },
   {
     id: 3,

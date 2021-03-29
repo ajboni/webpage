@@ -2,6 +2,24 @@
   export let item;
 </script>
 
+<div class="card">
+  <div class="title">
+    <img src={item.icon} alt={""} />
+    <a href={item.url} target="__blank"> {item.title} </a>
+  </div>
+  <div class="img">
+    <a href={item.url} target="__blank">
+      <img src={item.img} alt={item.title} />
+    </a>
+  </div>
+  <div class="description">{item.description}</div>
+  <div class="skills">
+    {#each item.skills as skill}
+      <div class="skill">{skill}</div>
+    {/each}
+  </div>
+</div>
+
 <style>
   .card {
     border-radius: 3px;
@@ -14,11 +32,12 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
+    border: 2px solid #252728;
     /* background-color:rgba(238, 149, 167, 0.116); */
   }
 
   .title {
-    border-bottom: 1px solid #f7f7f7;
+    border-bottom: 1px solid #252728;
     padding-bottom: 10px;
     align-content: center;
     display: flex;
@@ -77,40 +96,24 @@
   }
 
   .skill {
-    background-color: #eee;
+    /* background-color: #eee; */
     border-radius: 3px;
-    color: #999;
+    /* color: #999; */
     transition: color 0.2s;
     margin: 0 5x 5px 0;
     padding: 2px 8px;
     margin-bottom: 10px;
     margin-right: 10px;
     position: relative;
-    font: 12px/1.5 "PT Sans", serif;
-    /* border-radius: 32px;     */
+    font-size: 0.6em;
+
+    background-color: #6f4b86;
+    border-color: #6f4b86;
   }
 
   .skill:hover {
     background-color: #9b4dca;
     color: white;
+    cursor: pointer;
   }
 </style>
-
-<div class="card">
-
-  <div class="title">
-    <img src={item.icon} alt={''} />
-    <a href={item.url} target="__blank"> {item.title} </a>
-  </div>
-  <div class="img">
-    <a href={item.url} target="__blank">
-      <img src={item.img} alt={item.title} />
-    </a>
-  </div>
-  <div class="description"> {item.description} </div>
-  <div class="skills">
-    {#each item.skills as skill}
-      <div class="skill"> {skill} </div>
-    {/each}
-  </div>
-</div>

@@ -6,30 +6,32 @@ export const contactItems = [
     img: "./img/icons8-email-sign-100.png"
   },
   {
-    id: 11,
-    title: "Blog",
-    url: "https://blog.aboni.dev",
-    img: "./img/icons8-blog-96.png"
-  },
-
-  {
     id: 2,
     title: "Github",
     url: "https://github.com/ajboni/",
     img: "./img/icons8-github-100.png"
   },
   {
-    id: 3,
-    title: "Gitlab",
-    url: "https://gitlab.com/ajboni",
-    img: "./img/icons8-gitlab-100.png"
+    id: 4,
+    title: "Fiverr",
+    url: "https://www.fiverr.com/ajboni?up_rollout=true",
+    img: "./img/fiverr_logo.png"
   },
-  // {
-  //   id: 4,
-  //   title: "Twitter",
-  //   url: "https://twitter.com/rdbdlf",
-  //   img: "./img/icons8-twitter-100.png"
-  // },
+  {
+    id: 11,
+    title: "Blog",
+    url: "https://blog.aboni.dev",
+    img: "./img/icons8-blog-96.png"
+  },
+
+
+//   {
+//     id: 3,
+//     title: "Gitlab",
+//     url: "https://gitlab.com/ajboni",
+//     img: "./img/icons8-gitlab-100.png"
+//   },
+
   {
     id: 5,
     title: "Youtube",
