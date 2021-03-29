@@ -1481,8 +1481,8 @@ var app = (function () {
 
     function add_css$5() {
     	var style = element("style");
-    	style.id = "svelte-1g7bodi-style";
-    	style.textContent = ".row.svelte-1g7bodi{margin-top:80px;margin-bottom:20px}hr.svelte-1g7bodi{background:linear-gradient(\n      to right,\n      transparent,\n      rgb(71, 71, 77),\n      transparent\n    );width:80%;margin-right:20px;margin-left:20px;height:2px;border-top:unset !important}";
+    	style.id = "svelte-38wxyt-style";
+    	style.textContent = ".row.svelte-38wxyt{margin-top:80px;margin-bottom:20px}hr.svelte-38wxyt{background:linear-gradient(to right, transparent, #252728, transparent);width:80%;margin-right:20px;margin-left:20px;height:2px;border-top:unset !important}";
     	append(document.head, style);
     }
 
@@ -1501,17 +1501,17 @@ var app = (function () {
     		c() {
     			div3 = element("div");
     			div0 = element("div");
-    			div0.innerHTML = `<hr class="svelte-1g7bodi"/>`;
+    			div0.innerHTML = `<hr class="svelte-38wxyt"/>`;
     			t0 = space();
     			div1 = element("div");
     			if (default_slot) default_slot.c();
     			t1 = space();
     			div2 = element("div");
-    			div2.innerHTML = `<hr class="svelte-1g7bodi"/>`;
+    			div2.innerHTML = `<hr class="svelte-38wxyt"/>`;
     			attr(div0, "class", "column");
     			attr(div1, "class", "column");
     			attr(div2, "class", "column");
-    			attr(div3, "class", "row svelte-1g7bodi");
+    			attr(div3, "class", "row svelte-38wxyt");
     		},
     		m(target, anchor) {
     			insert(target, div3, anchor);
@@ -1563,7 +1563,7 @@ var app = (function () {
     class Separator extends SvelteComponent {
     	constructor(options) {
     		super();
-    		if (!document.getElementById("svelte-1g7bodi-style")) add_css$5();
+    		if (!document.getElementById("svelte-38wxyt-style")) add_css$5();
     		init(this, options, instance$2, create_fragment$5, safe_not_equal, {});
     	}
     }
@@ -2539,30 +2539,33 @@ var app = (function () {
 
     const skillsItems = {
       it: [
-        "Network Planning, Cisco CCNA level: Routing and switching",
+        "Network And Infraestructure Design, Planning and Implementation ",
+        "Technical Project Management and Team Leader",
+        "Technology research",
         "Router/Firewall administration",
         "Widows/Linux Server Administration",
         "Virtualization with VMWare and Proxmox",
-        "Technology implementation of essential enterprise solutions (Directory services, antivirus , backup services,  policies etc)",
+        "Technology implementation of essential enterprise solutions.",
         "Software and Hardware Logging and monitoring",
-        "Project Management and Team Leader",
         "Tech Support (Software and Hardware)",
         "Equipment Configuration and commisioning",
+        "Cisco CCNA level: Routing and switching",
       ],
       dev: [
         "Javascript, HTML,CSS",
-        "Node.js, React.js, Svelte, Mobx",
-        "Wordpress, WooCommerce",
+        "Node.js, React.js, Svelte, Mobx, Gatsby",
         "Antd, TailwindCSS, Bulma, Bootstrap, MeterialUI",
+        "Wordpress, WooCommerce",
         "Game Development with Unity 3D and Godot Engine",
         "Python, c#, vba, excel, php",
         "Devops, kubernetes, docker, IaaC",
       ],
       misc: [
         "4 Years of English-Spanish translation specializing in computer science and technical translation",
-        "Successfully finished Cisco CCNA official course (certification pending)",
+        "Successfully finished Cisco CCNA official course: Routing and switching",
         "Music and Audio Production, Mixing and Mastering.",
-        "English level, written: bilingual, spoken: medium",
+        "English: Written: Proficient, Spoken: Intermediate",
+        "Spanish: Native",
       ],
     };
 
@@ -2570,8 +2573,8 @@ var app = (function () {
 
     function add_css$1() {
     	var style = element("style");
-    	style.id = "svelte-1fysxq7-style";
-    	style.textContent = ".container.svelte-1fysxq7 h2.svelte-1fysxq7,h3.svelte-1fysxq7.svelte-1fysxq7{text-align:center}.card.svelte-1fysxq7.svelte-1fysxq7{display:flex;flex-direction:column;padding:0 20px;margin:0 20px}";
+    	style.id = "svelte-2u4pwd-style";
+    	style.textContent = ".container.svelte-2u4pwd h2.svelte-2u4pwd,h3.svelte-2u4pwd.svelte-2u4pwd{text-align:center}ul.svelte-2u4pwd.svelte-2u4pwd{margin:0}@media screen and (max-width: 767px){.title.svelte-2u4pwd.svelte-2u4pwd{width:100% !important;border-bottom:2px solid #252728;align-items:center;justify-items:center;justify-content:center}h3.svelte-2u4pwd.svelte-2u4pwd{margin:1rem 0}}.section.svelte-2u4pwd.svelte-2u4pwd{margin-bottom:4rem;border:2px solid #252728}.card.svelte-2u4pwd.svelte-2u4pwd{display:flex;flex-direction:column;padding:2rem 20px;margin:0 20px}.title.svelte-2u4pwd.svelte-2u4pwd{display:flex;align-items:center;justify-content:center;width:25%;background-color:#1a1a1a4b;margin-bottom:0;border-right:2px solid #252728}";
     	append(document.head, style);
     }
 
@@ -2593,7 +2596,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (23:4) <Separator>
+    // (7:2) <Separator>
     function create_default_slot(ctx) {
     	let h2;
 
@@ -2601,7 +2604,7 @@ var app = (function () {
     		c() {
     			h2 = element("h2");
     			h2.textContent = "Skills";
-    			attr(h2, "class", "svelte-1fysxq7");
+    			attr(h2, "class", "svelte-2u4pwd");
     		},
     		m(target, anchor) {
     			insert(target, h2, anchor);
@@ -2612,7 +2615,7 @@ var app = (function () {
     	};
     }
 
-    // (30:16) {#each skillsItems.it as item}
+    // (16:8) {#each skillsItems.it as item}
     function create_each_block_2(ctx) {
     	let li;
     	let t0_value = /*item*/ ctx[0] + "";
@@ -2637,7 +2640,7 @@ var app = (function () {
     	};
     }
 
-    // (41:20) {#each skillsItems.dev as item}
+    // (31:8) {#each skillsItems.dev as item}
     function create_each_block_1(ctx) {
     	let li;
     	let t0_value = /*item*/ ctx[0] + "";
@@ -2662,7 +2665,7 @@ var app = (function () {
     	};
     }
 
-    // (51:20) {#each skillsItems.misc as item}
+    // (46:8) {#each skillsItems.misc as item}
     function create_each_block(ctx) {
     	let li;
     	let t0_value = /*item*/ ctx[0] + "";
@@ -2688,24 +2691,25 @@ var app = (function () {
     }
 
     function create_fragment$1(ctx) {
-    	let div5;
+    	let div9;
     	let separator;
     	let t0;
-    	let div4;
+    	let div2;
     	let div0;
-    	let h30;
     	let t2;
+    	let div1;
     	let ul0;
     	let t3;
+    	let div5;
     	let div3;
-    	let div1;
-    	let h31;
     	let t5;
+    	let div4;
     	let ul1;
     	let t6;
-    	let div2;
-    	let h32;
+    	let div8;
+    	let div6;
     	let t8;
+    	let div7;
     	let ul2;
     	let current;
 
@@ -2739,14 +2743,14 @@ var app = (function () {
 
     	return {
     		c() {
-    			div5 = element("div");
+    			div9 = element("div");
     			create_component(separator.$$.fragment);
     			t0 = space();
-    			div4 = element("div");
+    			div2 = element("div");
     			div0 = element("div");
-    			h30 = element("h3");
-    			h30.textContent = "IT";
+    			div0.innerHTML = `<h3 class="svelte-2u4pwd">IT</h3>`;
     			t2 = space();
+    			div1 = element("div");
     			ul0 = element("ul");
 
     			for (let i = 0; i < each_blocks_2.length; i += 1) {
@@ -2754,11 +2758,11 @@ var app = (function () {
     			}
 
     			t3 = space();
+    			div5 = element("div");
     			div3 = element("div");
-    			div1 = element("div");
-    			h31 = element("h3");
-    			h31.textContent = "Dev";
+    			div3.innerHTML = `<h3 class="svelte-2u4pwd">Dev</h3>`;
     			t5 = space();
+    			div4 = element("div");
     			ul1 = element("ul");
 
     			for (let i = 0; i < each_blocks_1.length; i += 1) {
@@ -2766,56 +2770,62 @@ var app = (function () {
     			}
 
     			t6 = space();
-    			div2 = element("div");
-    			h32 = element("h3");
-    			h32.textContent = "Misc";
+    			div8 = element("div");
+    			div6 = element("div");
+    			div6.innerHTML = `<h3 class="svelte-2u4pwd">Misc</h3>`;
     			t8 = space();
+    			div7 = element("div");
     			ul2 = element("ul");
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			attr(h30, "class", "svelte-1fysxq7");
-    			attr(div0, "class", "column card svelte-1fysxq7");
-    			attr(h31, "class", "svelte-1fysxq7");
-    			attr(div1, "class", "row card svelte-1fysxq7");
-    			attr(h32, "class", "svelte-1fysxq7");
-    			attr(div2, "class", "row card svelte-1fysxq7");
-    			attr(div3, "class", "column");
-    			attr(div4, "class", "row");
-    			attr(div5, "class", "container svelte-1fysxq7");
+    			attr(div0, "class", "column title svelte-2u4pwd");
+    			attr(ul0, "class", "svelte-2u4pwd");
+    			attr(div1, "class", "column card svelte-2u4pwd");
+    			attr(div2, "class", "row section svelte-2u4pwd");
+    			attr(div3, "class", "column title svelte-2u4pwd");
+    			attr(ul1, "class", "svelte-2u4pwd");
+    			attr(div4, "class", "column card svelte-2u4pwd");
+    			attr(div5, "class", "row section svelte-2u4pwd");
+    			attr(div6, "class", "column title svelte-2u4pwd");
+    			attr(ul2, "class", "svelte-2u4pwd");
+    			attr(div7, "class", "column card svelte-2u4pwd");
+    			attr(div8, "class", "row section svelte-2u4pwd");
+    			attr(div9, "class", "container svelte-2u4pwd");
     		},
     		m(target, anchor) {
-    			insert(target, div5, anchor);
-    			mount_component(separator, div5, null);
-    			append(div5, t0);
-    			append(div5, div4);
-    			append(div4, div0);
-    			append(div0, h30);
-    			append(div0, t2);
-    			append(div0, ul0);
+    			insert(target, div9, anchor);
+    			mount_component(separator, div9, null);
+    			append(div9, t0);
+    			append(div9, div2);
+    			append(div2, div0);
+    			append(div2, t2);
+    			append(div2, div1);
+    			append(div1, ul0);
 
     			for (let i = 0; i < each_blocks_2.length; i += 1) {
     				each_blocks_2[i].m(ul0, null);
     			}
 
-    			append(div4, t3);
-    			append(div4, div3);
-    			append(div3, div1);
-    			append(div1, h31);
-    			append(div1, t5);
-    			append(div1, ul1);
+    			append(div9, t3);
+    			append(div9, div5);
+    			append(div5, div3);
+    			append(div5, t5);
+    			append(div5, div4);
+    			append(div4, ul1);
 
     			for (let i = 0; i < each_blocks_1.length; i += 1) {
     				each_blocks_1[i].m(ul1, null);
     			}
 
-    			append(div3, t6);
-    			append(div3, div2);
-    			append(div2, h32);
-    			append(div2, t8);
-    			append(div2, ul2);
+    			append(div9, t6);
+    			append(div9, div8);
+    			append(div8, div6);
+    			append(div8, t8);
+    			append(div8, div7);
+    			append(div7, ul2);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].m(ul2, null);
@@ -2911,7 +2921,7 @@ var app = (function () {
     			current = false;
     		},
     		d(detaching) {
-    			if (detaching) detach(div5);
+    			if (detaching) detach(div9);
     			destroy_component(separator);
     			destroy_each(each_blocks_2, detaching);
     			destroy_each(each_blocks_1, detaching);
@@ -2923,7 +2933,7 @@ var app = (function () {
     class Skills extends SvelteComponent {
     	constructor(options) {
     		super();
-    		if (!document.getElementById("svelte-1fysxq7-style")) add_css$1();
+    		if (!document.getElementById("svelte-2u4pwd-style")) add_css$1();
     		init(this, options, null, create_fragment$1, safe_not_equal, {});
     	}
     }
@@ -2932,8 +2942,8 @@ var app = (function () {
 
     function add_css() {
     	var style = element("style");
-    	style.id = "svelte-p7h5iz-style";
-    	style.textContent = ".mainContainer.svelte-p7h5iz{background-color:#1d1f21 !important;color:#d6dbdd !important;font-family:\"Droid Sans Mono\", \"monospace\", monospace,\n      \"Droid Sans Fallback\";font-weight:normal;font-size:1.08em}::-moz-selection{background-color:#6f4b86}::selection{background-color:#6f4b86}";
+    	style.id = "svelte-zyhlq1-style";
+    	style.textContent = ".mainContainer.svelte-zyhlq1{background-color:#1d1f21 !important;color:#d6dbdd !important;font-family:\"Droid Sans Mono\", \"monospace\", monospace,\n      \"Droid Sans Fallback\";font-weight:normal;font-size:1.08em}::-moz-selection{background-color:#6f4b86}h2{font-size:3.5rem;line-height:1.6}::selection{background-color:#6f4b86}";
     	append(document.head, style);
     }
 
@@ -2972,7 +2982,7 @@ var app = (function () {
     			create_component(contact.$$.fragment);
     			t4 = space();
     			create_component(footer.$$.fragment);
-    			attr(div, "class", "mainContainer svelte-p7h5iz");
+    			attr(div, "class", "mainContainer svelte-zyhlq1");
     		},
     		m(target, anchor) {
     			insert(target, div, anchor);
@@ -3034,7 +3044,7 @@ var app = (function () {
     class App extends SvelteComponent {
     	constructor(options) {
     		super();
-    		if (!document.getElementById("svelte-p7h5iz-style")) add_css();
+    		if (!document.getElementById("svelte-zyhlq1-style")) add_css();
     		init(this, options, instance, create_fragment, safe_not_equal, { name: 0 });
     	}
     }

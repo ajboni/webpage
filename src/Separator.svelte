@@ -10,12 +10,7 @@
     margin-bottom: 20px;
   }
   hr {
-    background: linear-gradient(
-      to right,
-      transparent,
-      rgb(71, 71, 77),
-      transparent
-    );
+    background: linear-gradient(to right, transparent, #252728, transparent);
     width: 80%;
     margin-right: 20px;
     margin-left: 20px;

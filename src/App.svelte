@@ -32,6 +32,11 @@
     background-color: #6f4b86;
   }
 
+  :global(h2) {
+    font-size: 3.5rem;
+    line-height: 1.6;
+  }
+
   :global(::selection) {
     background-color: #6f4b86;
   }
