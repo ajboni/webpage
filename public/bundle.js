@@ -1083,7 +1083,7 @@ var app = (function () {
           "archckl - A simple but functional chess clock made with arduino nano and a few components.",
         category: "App Development",
         skills: ["C++", "Arduino", "Electronics"],
-        url: "https://github.com/ajboni/archclck",
+        url: "https://github.com/ajboni/archclk",
         icon: "img/icons8-chess-clock-96.png",
         img: "img/archclck.jpg",
       },
