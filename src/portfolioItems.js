@@ -31,7 +31,7 @@ export const portfolioItems = [
     category: "Web Development",
     skills: ["React", "GraphQL", "Wordpress", "WooCommerce"],
     img: "img/ateitis.png",
-    url: "https://baj.itch.io/drafft",
+    url: "https://ateitiscorp.com",
     icon: "img/icons8-web-design-96.png",
   },
   {
@@ -75,16 +75,16 @@ export const portfolioItems = [
     url: "https://github.com/ajboni/airwindows-cheatsheet",
     icon: "img/icons8-web-design-96.png",
   },
-  {
-    id: 13,
-    title: "Jardeco",
-    description: "Landing page and e-commerce site for local garden shop.",
-    category: "Web Development",
-    skills: ["Wordpress", "WooCommerce", "Elementor"],
-    img: "img/jardeco.png",
-    url: "https://jardeco.com.ar",
-    icon: "img/icons8-web-design-96.png",
-  },
+  //   {
+  //     id: 13,
+  //     title: "Jardeco",
+  //     description: "Landing page and e-commerce site for local garden shop.",
+  //     category: "Web Development",
+  //     skills: ["Wordpress", "WooCommerce", "Elementor"],
+  //     img: "img/jardeco.png",
+  //     url: "https://jardeco.com.ar",
+  //     icon: "img/icons8-web-design-96.png",
+  //   },
   {
     id: 12,
     title: "Pomodolfo",
@@ -147,8 +147,7 @@ export const portfolioItems = [
     category: "Game Development",
     skills: ["C#", "Unity", "Soundtrack", "Steamworks"],
     img: "img/htc.png",
-    url:
-      "https://store.steampowered.com/app/797390/How_To_Cope_With_Boredom_and_Loneliness/",
+    url: "https://store.steampowered.com/app/797390/How_To_Cope_With_Boredom_and_Loneliness/",
     icon: "img/icons8-steam-96.png",
   },
   {
@@ -180,8 +179,7 @@ export const portfolioItems = [
     category: "Game Development",
     skills: ["Godot", "GDScript", "Google Play"],
     img: "img/anotador_truco.png",
-    url:
-      "https://play.google.com/store/apps/details?id=anotador.de.truco.simple&hl=es_419",
+    url: "https://play.google.com/store/apps/details?id=anotador.de.truco.simple&hl=es_419",
     icon: "img/google_play.png",
   },
   {

@@ -1,4 +1,14 @@
 export const skillsItems = {
+  dev: [
+    "Javascript, HTML,CSS",
+    "Node.js, React.js, Svelte, Mobx",
+    "Hugo, Gatsby, Next.js, Sapper",
+    "Antd, TailwindCSS, Bulma, Bootstrap, MeterialUI",
+    "Wordpress, WooCommerce",
+    "Game Development with Unity 3D and Godot Engine",
+    "Python, c#, vba, excel, php",
+    "Devops, kubernetes, docker, IaaC",
+  ],
   it: [
     "Network And Infraestructure Design, Planning and Implementation ",
     "Technical Project Management and Team Leader",
@@ -11,15 +21,6 @@ export const skillsItems = {
     "Tech Support (Software and Hardware)",
     "Equipment Configuration and commisioning",
     "Cisco CCNA level: Routing and switching",
-  ],
-  dev: [
-    "Javascript, HTML,CSS",
-    "Node.js, React.js, Svelte, Mobx, Gatsby",
-    "Antd, TailwindCSS, Bulma, Bootstrap, MeterialUI",
-    "Wordpress, WooCommerce",
-    "Game Development with Unity 3D and Godot Engine",
-    "Python, c#, vba, excel, php",
-    "Devops, kubernetes, docker, IaaC",
   ],
   misc: [
     "4 Years of English-Spanish translation specializing in computer science and technical translation",

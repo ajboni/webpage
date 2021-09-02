@@ -842,7 +842,7 @@ var app = (function () {
     	let div2;
     	let h3;
     	let t1;
-    	let h1;
+    	let h2;
     	let t2;
     	let t3;
     	let prompt;
@@ -865,7 +865,7 @@ var app = (function () {
     			h3 = element("h3");
     			h3.textContent = "Hello";
     			t1 = space();
-    			h1 = element("h1");
+    			h2 = element("h2");
     			t2 = text("I'm\n    ");
     			if (if_block) if_block.c();
     			t3 = space();
@@ -875,10 +875,11 @@ var app = (function () {
     			div0 = element("div");
     			p = element("p");
 
-    			p.innerHTML = `I&#39;m an IT Professional with over 10 years of hands-on experience.
+    			p.innerHTML = `I&#39;m an IT Professional and developer with 10+ years of hands-on
+        experience.
         <br/>
-        I&#39;m currently learning skills about webdev, devOps, kubernetes, gamedev,
-        music production and linux.
+        I&#39;m currently learning skills about jamstack, webdev, devOps, gamedev, music
+        production and linux.
         <br/>
         I&#39;m a self-hosted, Linux, DIY and FOSS ethusiast and always looking for fun
         projects.`;
@@ -902,11 +903,11 @@ var app = (function () {
     			insert(target, div2, anchor);
     			append(div2, h3);
     			append(div2, t1);
-    			append(div2, h1);
-    			append(h1, t2);
-    			if (if_block) if_block.m(h1, null);
-    			append(h1, t3);
-    			mount_component(prompt, h1, null);
+    			append(div2, h2);
+    			append(h2, t2);
+    			if (if_block) if_block.m(h2, null);
+    			append(h2, t3);
+    			mount_component(prompt, h2, null);
     			append(div2, t4);
     			append(div2, div1);
     			append(div1, div0);
@@ -929,7 +930,7 @@ var app = (function () {
     					if_block = create_if_block$1(ctx);
     					if_block.c();
     					transition_in(if_block, 1);
-    					if_block.m(h1, t3);
+    					if_block.m(h2, t3);
     				}
     			} else if (if_block) {
     				group_outros();
@@ -1095,7 +1096,7 @@ var app = (function () {
         category: "Web Development",
         skills: ["React", "GraphQL", "Wordpress", "WooCommerce"],
         img: "img/ateitis.png",
-        url: "https://baj.itch.io/drafft",
+        url: "https://ateitiscorp.com",
         icon: "img/icons8-web-design-96.png",
       },
       {
@@ -1139,16 +1140,16 @@ var app = (function () {
         url: "https://github.com/ajboni/airwindows-cheatsheet",
         icon: "img/icons8-web-design-96.png",
       },
-      {
-        id: 13,
-        title: "Jardeco",
-        description: "Landing page and e-commerce site for local garden shop.",
-        category: "Web Development",
-        skills: ["Wordpress", "WooCommerce", "Elementor"],
-        img: "img/jardeco.png",
-        url: "https://jardeco.com.ar",
-        icon: "img/icons8-web-design-96.png",
-      },
+      //   {
+      //     id: 13,
+      //     title: "Jardeco",
+      //     description: "Landing page and e-commerce site for local garden shop.",
+      //     category: "Web Development",
+      //     skills: ["Wordpress", "WooCommerce", "Elementor"],
+      //     img: "img/jardeco.png",
+      //     url: "https://jardeco.com.ar",
+      //     icon: "img/icons8-web-design-96.png",
+      //   },
       {
         id: 12,
         title: "Pomodolfo",
@@ -1211,8 +1212,7 @@ var app = (function () {
         category: "Game Development",
         skills: ["C#", "Unity", "Soundtrack", "Steamworks"],
         img: "img/htc.png",
-        url:
-          "https://store.steampowered.com/app/797390/How_To_Cope_With_Boredom_and_Loneliness/",
+        url: "https://store.steampowered.com/app/797390/How_To_Cope_With_Boredom_and_Loneliness/",
         icon: "img/icons8-steam-96.png",
       },
       {
@@ -1244,8 +1244,7 @@ var app = (function () {
         category: "Game Development",
         skills: ["Godot", "GDScript", "Google Play"],
         img: "img/anotador_truco.png",
-        url:
-          "https://play.google.com/store/apps/details?id=anotador.de.truco.simple&hl=es_419",
+        url: "https://play.google.com/store/apps/details?id=anotador.de.truco.simple&hl=es_419",
         icon: "img/google_play.png",
       },
       {
@@ -2538,6 +2537,16 @@ var app = (function () {
     }
 
     const skillsItems = {
+      dev: [
+        "Javascript, HTML,CSS",
+        "Node.js, React.js, Svelte, Mobx",
+        "Hugo, Gatsby, Next.js, Sapper",
+        "Antd, TailwindCSS, Bulma, Bootstrap, MeterialUI",
+        "Wordpress, WooCommerce",
+        "Game Development with Unity 3D and Godot Engine",
+        "Python, c#, vba, excel, php",
+        "Devops, kubernetes, docker, IaaC",
+      ],
       it: [
         "Network And Infraestructure Design, Planning and Implementation ",
         "Technical Project Management and Team Leader",
@@ -2550,15 +2559,6 @@ var app = (function () {
         "Tech Support (Software and Hardware)",
         "Equipment Configuration and commisioning",
         "Cisco CCNA level: Routing and switching",
-      ],
-      dev: [
-        "Javascript, HTML,CSS",
-        "Node.js, React.js, Svelte, Mobx, Gatsby",
-        "Antd, TailwindCSS, Bulma, Bootstrap, MeterialUI",
-        "Wordpress, WooCommerce",
-        "Game Development with Unity 3D and Godot Engine",
-        "Python, c#, vba, excel, php",
-        "Devops, kubernetes, docker, IaaC",
       ],
       misc: [
         "4 Years of English-Spanish translation specializing in computer science and technical translation",
@@ -2615,7 +2615,7 @@ var app = (function () {
     	};
     }
 
-    // (16:8) {#each skillsItems.it as item}
+    // (16:8) {#each skillsItems.dev as item}
     function create_each_block_2(ctx) {
     	let li;
     	let t0_value = /*item*/ ctx[0] + "";
@@ -2640,7 +2640,7 @@ var app = (function () {
     	};
     }
 
-    // (31:8) {#each skillsItems.dev as item}
+    // (30:8) {#each skillsItems.it as item}
     function create_each_block_1(ctx) {
     	let li;
     	let t0_value = /*item*/ ctx[0] + "";
@@ -2665,7 +2665,7 @@ var app = (function () {
     	};
     }
 
-    // (46:8) {#each skillsItems.misc as item}
+    // (45:8) {#each skillsItems.misc as item}
     function create_each_block(ctx) {
     	let li;
     	let t0_value = /*item*/ ctx[0] + "";
@@ -2720,14 +2720,14 @@ var app = (function () {
     			}
     		});
 
-    	let each_value_2 = skillsItems.it;
+    	let each_value_2 = skillsItems.dev;
     	let each_blocks_2 = [];
 
     	for (let i = 0; i < each_value_2.length; i += 1) {
     		each_blocks_2[i] = create_each_block_2(get_each_context_2(ctx, each_value_2, i));
     	}
 
-    	let each_value_1 = skillsItems.dev;
+    	let each_value_1 = skillsItems.it;
     	let each_blocks_1 = [];
 
     	for (let i = 0; i < each_value_1.length; i += 1) {
@@ -2748,7 +2748,7 @@ var app = (function () {
     			t0 = space();
     			div2 = element("div");
     			div0 = element("div");
-    			div0.innerHTML = `<h3 class="svelte-2u4pwd">IT</h3>`;
+    			div0.innerHTML = `<h3 class="svelte-2u4pwd">Dev</h3>`;
     			t2 = space();
     			div1 = element("div");
     			ul0 = element("ul");
@@ -2760,7 +2760,7 @@ var app = (function () {
     			t3 = space();
     			div5 = element("div");
     			div3 = element("div");
-    			div3.innerHTML = `<h3 class="svelte-2u4pwd">Dev</h3>`;
+    			div3.innerHTML = `<h3 class="svelte-2u4pwd">IT</h3>`;
     			t5 = space();
     			div4 = element("div");
     			ul1 = element("ul");
@@ -2843,7 +2843,7 @@ var app = (function () {
     			separator.$set(separator_changes);
 
     			if (dirty & /*skillsItems*/ 0) {
-    				each_value_2 = skillsItems.it;
+    				each_value_2 = skillsItems.dev;
     				let i;
 
     				for (i = 0; i < each_value_2.length; i += 1) {
@@ -2866,7 +2866,7 @@ var app = (function () {
     			}
 
     			if (dirty & /*skillsItems*/ 0) {
-    				each_value_1 = skillsItems.dev;
+    				each_value_1 = skillsItems.it;
     				let i;
 
     				for (i = 0; i < each_value_1.length; i += 1) {

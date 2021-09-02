@@ -71,21 +71,22 @@
 
 <div class="container">
   <h3>Hello</h3>
-  <h1>
+  <h2>
     I'm
     {#if animate}
       <span in:typewriter out:reverseTypewriter>{currentSkill}</span>
     {/if}
     <Prompt />
-  </h1>
+  </h2>
 
   <div class="row">
     <div class="column">
       <p in:typewriter>
-        I'm an IT Professional with over 10 years of hands-on experience.
+        I'm an IT Professional and developer with 10+ years of hands-on
+        experience.
         <br />
-        I'm currently learning skills about webdev, devOps, kubernetes, gamedev,
-        music production and linux.
+        I'm currently learning skills about jamstack, webdev, devOps, gamedev, music
+        production and linux.
         <br />
         I'm a self-hosted, Linux, DIY and FOSS ethusiast and always looking for fun
         projects.

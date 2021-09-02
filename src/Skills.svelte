@@ -9,11 +9,11 @@
   </Separator>
   <div class="row section">
     <div class="column title">
-      <h3>IT</h3>
+      <h3>Dev</h3>
     </div>
     <div class="column card">
       <ul>
-        {#each skillsItems.it as item}
+        {#each skillsItems.dev as item}
           <li>
             {item}
           </li>
@@ -21,14 +21,13 @@
       </ul>
     </div>
   </div>
-
   <div class="row section">
     <div class="column title">
-      <h3>Dev</h3>
+      <h3>IT</h3>
     </div>
     <div class="column card">
       <ul>
-        {#each skillsItems.dev as item}
+        {#each skillsItems.it as item}
           <li>
             {item}
           </li>
