@@ -4,13 +4,14 @@
   import Prompt from "./Prompt.svelte";
   let animate = false;
   let skills = [
-    "IT infraestructure administrator",
     "a web developer",
     "a network administrator and engineer",
+    "an IT infraestructure administrator",
     "a game developer",
     "a devOps engineer",
     "a music maker",
-    "Linux, OSS, and DIY enthusiast",
+    "a Linux, OSS, and DIY enthusiast",
+    "a curious individual"
   ];
   let currentSkill = skills[0];
   let currentSkillIndex = 0;
