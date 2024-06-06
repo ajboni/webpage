@@ -40,7 +40,7 @@ export const contactItems = [
   {
     id: 6,
     title: "Music",
-    url: "https://ditto.fm/redundant-reflections",
+    url: "https://open.spotify.com/artist/591vNWGZNG1MXFNfC1HoAM",
     img: "./img/icons8-spotify-100.png",
   },
 ];
