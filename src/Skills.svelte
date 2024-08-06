@@ -7,64 +7,15 @@
   <Separator>
     <h2>Skills</h2>
   </Separator>
-  <div class="row section">
-    <div class="column title">
-      <h3>Dev</h3>
-    </div>
-    <div class="column card">
-      <ul>
-        {#each skillsItems.dev as item}
-          <li>
-            {item}
-          </li>
-        {/each}
-      </ul>
-    </div>
-  </div>
-  <div class="row section">
-    <div class="column title">
-      <h3>IT</h3>
-    </div>
-    <div class="column card">
-      <ul>
-        {#each skillsItems.it as item}
-          <li>
-            {item}
-          </li>
-        {/each}
-      </ul>
-    </div>
-  </div>
 
-  <div class="row section">
-    <div class="column title">
-      <h3>Misc</h3>
-    </div>
-    <div class="column card">
-      <ul>
-        {#each skillsItems.misc as item}
-          <li>
-            {item}
-          </li>
-        {/each}
-      </ul>
-    </div>
-  </div>
-  <!-- <div class="column">
-      <div class="row card">
-        <h3>Dev</h3>
-        <ul>
-          {#each skillsItems.dev as item}
-            <li>
-              {item}
-            </li>
-          {/each}
-        </ul>
+  {#each Object.entries(skillsItems) as cat}
+    <div class="row section">
+      <div class="column title">
+        <h3>{cat[0]}</h3>
       </div>
-      <div class="row card">
-        <h3>Misc</h3>
+      <div class="column card">
         <ul>
-          {#each skillsItems.misc as item}
+          {#each cat[1] as item}
             <li>
               {item}
             </li>
@@ -72,7 +23,7 @@
         </ul>
       </div>
     </div>
-  </div>-->
+  {/each}
 </div>
 
 <style>
@@ -86,9 +37,6 @@
   }
 
   @media screen and (max-width: 767px) {
-    .section {
-    }
-
     .title {
       width: 100% !important;
       border-bottom: 2px solid #252728;

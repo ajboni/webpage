@@ -11,7 +11,7 @@
     "a devOps engineer",
     "a music maker",
     "a Linux, OSS, and DIY enthusiast",
-    "a curious individual"
+    "a curious individual",
   ];
   let currentSkill = skills[0];
   let currentSkillIndex = 0;
@@ -83,20 +83,14 @@
   <div class="row">
     <div class="column">
       <p in:typewriter>
-        I'm an IT Professional and developer with 10+ years of hands-on
+        I'm an IT Professional and developer with 13+ years of hands-on
         experience.
         <br />
-        I'm currently learning skills about jamstack, webdev, devOps, gamedev, music
-        production and linux.
-        <br />
-        I'm a self-hosted, Linux, DIY and FOSS ethusiast and always looking for fun
-        projects.
+        I'm a self-hosted, Linux, DIY, FOSS and JS ethusiast and always looking for
+        fun projects.
       </p>
       <a href="mailto:mail@aboni.dev">
         <button style="width: 150px">Contact Me!</button>
-      </a>
-      <a href="https://blog.aboni.dev" target="__blank">
-        <button style="width: 150px">Blog</button>
       </a>
     </div>
   </div>

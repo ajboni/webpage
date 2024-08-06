@@ -1,15 +1,16 @@
 export const skillsItems = {
-  dev: [
-    "Javascript, HTML,CSS",
-    "Node.js, React.js, Svelte, Mobx",
+  Dev: [
+    "Javascript, HTML, CSS",
+    "Nodejs, React, Alpine, Svelte, Nextjs",
     "Hugo, Gatsby, Next.js, Sapper",
-    "Antd, TailwindCSS, Bulma, Bootstrap, MeterialUI",
-    "Wordpress, WooCommerce",
-    "Game Development with Unity 3D and Godot Engine",
-    "Python, c#, vba, excel, php",
+    "TailwindCSS, Antd, Bulma, Bootstrap, MeterialUI",
+    "Python, c#, vba, php, bash",
     "Devops, kubernetes, docker, IaaC",
+    "Wordpress, WooCommerce",
+    "Unity 3D, Godot Engine",
+    "AI based dev, OpenAI, Langchain, Flowise, Langflow, Fooocus",
   ],
-  it: [
+  IT: [
     "Network And Infraestructure Design, Planning and Implementation ",
     "Technical Project Management and Team Leader",
     "Technology research",
@@ -18,14 +19,21 @@ export const skillsItems = {
     "Virtualization with VMWare and Proxmox",
     "Technology implementation of essential enterprise solutions.",
     "Software and Hardware Logging and monitoring",
-    "Tech Support (Software and Hardware)",
+    "Software and Hardware Tech Support",
+    "Help Desk implementation and management",
     "Equipment Configuration and commisioning",
     "Cisco CCNA level: Routing and switching",
   ],
-  misc: [
-    "4 Years of English-Spanish translation specializing in computer science and technical translation",
-    "Successfully finished Cisco CCNA official course: Routing and switching",
-    "Music and Audio Production, Mixing and Mastering.",
+  "BI and Data": [
+    "Advanced Excel",
+    "Advanced PowerBI Reporting",
+    "Sharepoint, Power Platform, MS List ",
+    "Data Pipelines, ETL, ELT, Airbyte, Metabase",
+  ],
+  Misc: [
+    "CCNA official course: Routing and switching",
+    "English-Spanish translation specializing in computer science and technical translation",
+    "Experience in Music and Audio Production, Mixing and Mastering.",
     "English: Written: Proficient, Spoken: Intermediate",
     "Spanish: Native",
   ],

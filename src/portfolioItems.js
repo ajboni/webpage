@@ -1,6 +1,6 @@
 export const portfolioItems = [
   {
-    id: 21,
+    id: 22,
     title: "Drafft",
     description:
       "Drafft is a collaborative design and development tool for easy and organised game development.",
@@ -9,6 +9,16 @@ export const portfolioItems = [
     img: "img/drafft.jpg",
     url: "https://baj.itch.io/drafft",
     icon: "img/drafft_icon.png",
+  },
+  {
+    id: 21,
+    title: "Airwindows Cheatsheet",
+    description: "Cheatsheet for airwindows plugins.",
+    category: "Web Development",
+    skills: ["Svelte", "Bulma", "Travis"],
+    img: "img/airwindows-cheatsheet.png",
+    url: "https://github.com/ajboni/airwindows-cheatsheet",
+    icon: "img/icons8-web-design-96.png",
   },
   {
     id: 20,
@@ -22,6 +32,16 @@ export const portfolioItems = [
   },
   {
     id: 19,
+    title: "Calvo",
+    description: "A jalv based lv2 plugin rack for your terminal. ",
+    category: "App Development",
+    skills: ["Node.js", "jack", "lv2", "Linux"],
+    img: "img/calvo.png",
+    url: "https://github.com/ajboni/calvo",
+    icon: "img/icons8-github-100.png",
+  },
+  {
+    id: 18,
     title: "Arduino Chess Clock",
     description:
       "archckl - A simple but functional chess clock made with arduino nano and a few components.",
@@ -32,17 +52,6 @@ export const portfolioItems = [
     img: "img/archclck.jpg",
   },
 
-  {
-    id: 18,
-    title: "Ateitis Corp",
-    description:
-      "Headless CMS and Ecommerce for Ateitis Corp made with React, Gatsby and Wordpress.",
-    category: "Web Development",
-    skills: ["React", "GraphQL", "Wordpress", "WooCommerce"],
-    img: "img/ateitis.png",
-    url: "https://ateitiscorp.com",
-    icon: "img/icons8-web-design-96.png",
-  },
   {
     id: 17,
     title: "Stuck in a drum loop",
@@ -64,24 +73,16 @@ export const portfolioItems = [
     url: "https://github.com/ajboni/docurry",
     icon: "img/icons8-github-100.png",
   },
+
   {
     id: 15,
-    title: "Calvo",
-    description: "A jalv based lv2 plugin rack for your terminal. ",
-    category: "App Development",
-    skills: ["Node.js", "jack", "lv2", "Linux"],
-    img: "img/calvo.png",
-    url: "https://github.com/ajboni/calvo",
-    icon: "img/icons8-github-100.png",
-  },
-  {
-    id: 14,
-    title: "Airwindows Cheatsheet",
-    description: "Cheatsheet for airwindows plugins.",
+    title: "Ateitis Corp",
+    description:
+      "Headless CMS and Ecommerce for Ateitis Corp made with React, Gatsby and Wordpress.",
     category: "Web Development",
-    skills: ["Svelte", "Bulma", "Travis"],
-    img: "img/airwindows-cheatsheet.png",
-    url: "https://github.com/ajboni/airwindows-cheatsheet",
+    skills: ["React", "GraphQL", "Wordpress", "WooCommerce"],
+    img: "img/ateitis.png",
+    url: "https://ateitiscorp.com",
     icon: "img/icons8-web-design-96.png",
   },
   //   {
