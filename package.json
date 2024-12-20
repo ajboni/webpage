@@ -23,6 +23,6 @@
     "dev": "HOST=localhost run-p start:dev autobuild",
     "start": "sirv public --single",
     "start:dev": "sirv public --single --dev",
-    "deploy": "gh-pages -d build --cname aboni.dev"
+    "deploy": "gh-pages -d public --cname aboni.dev"
   }
 }
