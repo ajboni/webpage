@@ -28,7 +28,7 @@ export const skillsItems = {
     "Advanced Excel",
     "Advanced PowerBI Reporting",
     "Sharepoint, Power Platform, MS List ",
-    "Data Pipelines, ETL, ELT, Airbyte, Metabase",
+    "Data Pipelines, Power Query, ETL, ELT, Airbyte, Metabase",
   ],
   Misc: [
     "CCNA official course: Routing and switching",

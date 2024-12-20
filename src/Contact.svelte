@@ -4,7 +4,7 @@
   import Separator from "./Separator.svelte";
 </script>
 
-<div class="container">
+<div class="container" id="contact">
   <Separator>
     <h2>Contact me</h2>
   </Separator>

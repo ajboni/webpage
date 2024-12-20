@@ -1,43 +1,23 @@
 <script>
-  import LogoNav from "./Nav.svelte";
-  import Greet from "./Greet.svelte";
-  import Portfolio from "./Portfolio.svelte";
-  import Contact from "./Contact.svelte";
-  import Footer from "./Footer.svelte";
-  import Skills from "./Skills.svelte";
-  export let name;
+  import { Router, Link, Route } from "svelte-routing";
+  import Home from "./Home.svelte";
+  import Radio from "./Radio.svelte";
+  import Nav from "./Nav.svelte";
+
+  export let url = "";
+  console.log(url);
 </script>
 
-<div class="mainContainer">
-  <LogoNav />
-  <Greet />
-  <Skills />
-  <Portfolio />
-  <Contact />
-  <Footer />
-</div>
+<Router {url}>
+  <div class="main">
+    <Nav />
+    <Route path="/radio" component={Radio} />
+    <Route path="/"><Home /></Route>
+  </div>
+</Router>
 
 <style>
-  .mainContainer {
-    background-color: #1d1f21 !important;
-    color: #d6dbdd !important;
-    font-family: "Droid Sans Mono", "monospace", monospace,
-      "Droid Sans Fallback";
-    font-weight: normal;
-    font-size: 1.08em;
-  }
-
-  :global(::-moz-selection) {
-    /* Code for Firefox */
-    background-color: #6f4b86;
-  }
-
-  :global(h2) {
-    font-size: 3.5rem;
-    line-height: 1.6;
-  }
-
-  :global(::selection) {
-    background-color: #6f4b86;
+  .main {
+    background: #1d1f21 !important;
   }
 </style>

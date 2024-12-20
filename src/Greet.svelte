@@ -71,25 +71,29 @@
 </script>
 
 <div class="container">
-  <h3>Hello</h3>
-  <h2>
+  <h2>Hello World</h2>
+  <!-- <h2>
     I'm
     {#if animate}
       <span in:typewriter out:reverseTypewriter>{currentSkill}</span>
     {/if}
     <Prompt />
-  </h2>
+  </h2> -->
 
   <div class="row">
     <div class="column">
-      <p in:typewriter>
-        I'm an IT Professional and developer with 13+ years of hands-on
-        experience.
-        <br />
-        I'm a self-hosted, Linux, DIY, FOSS and JS ethusiast and always looking for
-        fun projects.
+      <p>
+        I’m a <strong>problem-solving</strong> web <strong>developer</strong>
+        and <strong>IT generalist</strong> with over
+        <strong>14+ years of technical expertise</strong>
+        and hands-on experience. Passionate about
+        <strong>
+          Javascript, self-hosting, Linux, DIY projects, and free and
+          open-source software (FOSS)</strong
+        >, I thrive in environments where creativity and technical curiosity
+        intersect.
       </p>
-      <a href="mailto:mail@aboni.dev">
+      <a href="#contact" id="contact-btn">
         <button style="width: 150px">Contact Me!</button>
       </a>
     </div>

@@ -56,27 +56,20 @@
   </Separator>
 
   <div class="row">
-    <div class="column column-20" />
-    <div class="column column-40">
+    <div class="column">
       <input
         bind:value={filter}
         on:input={handleSearch}
         placeholder="Search..."
       />
     </div>
-    <div class="column column-25">
-      <!-- <label for="ageRangeField">Age Range</label> -->
-      <select
-        id="ageRangeField"
-        bind:value={filterType}
-        on:change={handleSearch}
-      >
+    <div class="column">
+      <select bind:value={filterType} on:change={handleSearch}>
         <option value="All">All</option>
         <option value="Text">Text</option>
         <option value="Tags">Tags</option>
       </select>
     </div>
-    <div class="column column-20" />
   </div>
 
   {#each filteredPortfolioItems as item, i (item.id)}

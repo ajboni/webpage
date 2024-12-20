@@ -1,5 +1,5 @@
 <footer>
-  <div class="footer-copyright">© Alexis Boni 2024</div>
+  <div class="footer-copyright">© Alexis Boni 2025</div>
   <div class="footer-copyright">
     Made with
     <img src="./img/icons8-heart-100.png" alt="love" />
