@@ -1,5 +1,17 @@
 <script>
-  import { onMount, onDestroy } from "svelte";
+  import { onMount } from "svelte";
+
+  function loadYouTubeAPI() {
+    return new Promise((resolve) => {
+      if (window.YT && window.YT.Player) {
+        resolve();
+      } else {
+        window.onYouTubeIframeAPIReady = () => {
+          resolve();
+        };
+      }
+    });
+  }
 
   // Props
   export let playlistId = "PLanxhTsICXCzmyo7HL1QZFFQZOX6rz4gP";
@@ -10,6 +22,13 @@
   let showSplash = true;
   let isPlaying = false;
 
+  // Reactive statement to check if the user is on a mobile device
+  $: isMobile = window.innerWidth <= 768;
+
+  window.addEventListener("resize", () => {
+    isMobile = window.innerWidth <= 768;
+  });
+
   const startPlaying = () => {
     if (player) {
       player.unMute();
@@ -18,9 +37,8 @@
       isPlaying = true;
     }
   };
-  onMount(() => {
-    // Initialize player when API is ready
-    console.log("Create player");
+  onMount(async () => {
+    await loadYouTubeAPI();
     player = new YT.Player(playerContainer, {
       height: "100%",
       width: "100%",
@@ -80,7 +98,7 @@
   {#if showSplash}
     <img
       style="position: absolute; width: 100vw; height: 100vh; top: 0px; left: 0px; object-fit: cover; z-index: 97;"
-      src="/img/gif/cover.gif"
+      src={isMobile ? "/img/gif/cover_mobile.gif" : "/img/gif/cover.gif"}
       alt=""
     />
   {/if}
@@ -182,6 +200,11 @@
 </div>
 
 <style>
+  @media (max-width: 768px) {
+    .controls {
+      gap: 4rem !important;
+    }
+  }
   .controls {
     width: 100%;
     height: 100%;
