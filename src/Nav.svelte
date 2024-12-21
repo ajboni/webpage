@@ -1,21 +1,22 @@
 <script>
-  import { Link, Route } from "svelte-routing";
-  import { useLocation } from "svelte-routing";
-  const location = useLocation();
+  import active from "svelte-spa-router/active";
+  import { link } from "svelte-spa-router";
 </script>
 
 <div class="logoContainer">
-  <!-- <a href="https://aboni.dev"> Alexis Boni</a> -->
   <h4>Alexis Boni</h4>
-  <Link to="/" let:active>
-    <div style={`color: ${active ? "#9b4dca" : "#606c76"}`}>Home</div>
-  </Link>
-  <Link to="/radio" let:active>
-    <div style={`color: ${active ? "#9b4dca" : "#606c76"}`}>Radio</div>
-  </Link>
+  <a href="/" use:link use:active>Home</a>
+  <a href="/radio" use:link use:active>Radio</a>
 </div>
 
 <style>
+  :global(a.active) {
+    color: #9b4dca;
+  }
+  :global(a:not(.active)) {
+    color: #606c76;
+  }
+
   .logoContainer {
     position: relative;
     height: 60px;

@@ -1,20 +1,22 @@
 <script>
-  import { Router, Link, Route } from "svelte-routing";
+  import Router from "svelte-spa-router";
   import Home from "./Home.svelte";
   import Radio from "./Radio.svelte";
   import Nav from "./Nav.svelte";
 
   export let url = "";
-  console.log(url);
+
+  const routes = {
+    "/": Home,
+    "/radio": Radio,
+    "*": Home,
+  };
 </script>
 
-<Router {url}>
-  <div class="main">
-    <Nav />
-    <Route path="/radio" component={Radio} />
-    <Route path="/"><Home /></Route>
-  </div>
-</Router>
+<div class="main">
+  <Nav />
+  <Router {routes}></Router>
+</div>
 
 <style>
   .main {
