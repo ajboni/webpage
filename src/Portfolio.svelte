@@ -2,6 +2,7 @@
   import { portfolioItems } from "./portfolioItems";
   import PortfolioItem from "./PortfolioItem.svelte";
   import Separator from "./Separator.svelte";
+  import { reveal } from "./reveal";
 
   let filteredPortfolioItems = portfolioItems;
   let filter = "";
@@ -86,7 +87,7 @@
         {#each filteredPortfolioItems.filter((eachElem, index) => {
           return index < i + 3 && index >= i;
         }) as subItem, x (subItem.id)}
-          <div class="column">
+          <div class="column" use:reveal={{ delay: x * 80 }}>
             <PortfolioItem item={subItem} />
           </div>
         {/each}

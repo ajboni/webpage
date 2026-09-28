@@ -2,6 +2,7 @@
   import { contactItems } from "./contactItems";
   import ContactForm from "./ContactForm.svelte";
   import Separator from "./Separator.svelte";
+  import { reveal } from "./reveal";
 </script>
 
 <div class="container" id="contact">
@@ -11,7 +12,7 @@
 
   <div class="row contact-row">
     {#each contactItems as item, i}
-      <div class="column">
+      <div class="column" use:reveal={{ delay: i * 60 }}>
         <a href={item.url} target="__blank"
           ><img src={item.img} alt={item.title} />{item.title}</a
         >

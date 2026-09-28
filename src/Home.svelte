@@ -1,5 +1,6 @@
 <script>
   import LogoNav from "./Nav.svelte";
+  import ScrollProgress from "./ScrollProgress.svelte";
   import Greet from "./Greet.svelte";
   import Portfolio from "./Portfolio.svelte";
   import Contact from "./Contact.svelte";
@@ -8,6 +9,7 @@
 </script>
 
 <div class="mainContainer">
+  <ScrollProgress />
   <Greet />
   <Skills />
   <Portfolio />

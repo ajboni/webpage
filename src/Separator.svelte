@@ -1,4 +1,8 @@
-<div class="row">
+<script>
+  import { reveal } from "./reveal";
+</script>
+
+<div class="row" use:reveal>
   <div class="column"><hr /></div>
   <div class="column"><slot /></div>
   <div class="column"><hr /></div>

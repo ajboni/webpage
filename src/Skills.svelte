@@ -1,5 +1,6 @@
 <script>
   import Separator from "./Separator.svelte";
+  import { reveal } from "./reveal";
   import { skillsItems } from "./skillsItems";
 </script>
 
@@ -8,8 +9,8 @@
     <h2>Skills</h2>
   </Separator>
 
-  {#each Object.entries(skillsItems) as cat}
-    <div class="row section">
+  {#each Object.entries(skillsItems) as cat, i}
+    <div class="row section" use:reveal={{ delay: i * 80 }}>
       <div class="column title">
         <h3>{cat[0]}</h3>
       </div>
