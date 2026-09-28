@@ -72,7 +72,9 @@
 </script>
 
 <div class="container">
-  <h2>Hello World</h2>
+  <h1 class="headline">
+    I build web apps, dev tools, and the infrastructure behind them.
+  </h1>
   <!-- <h2>
     I'm
     {#if animate}
@@ -96,31 +98,78 @@
         <strong>AI and agentic workflows</strong> where they add real value,
         always on top of solid engineering fundamentals.
       </p>
-      <a href="#contact" id="contact-btn">
-        <button style="width: 150px">Contact Me!</button>
-      </a>
+
+      <div class="cta-row">
+        <a href="#contact" class="cta cta-primary">Contact me</a>
+        <a
+          href="https://www.linkedin.com/in/alexis-boni/"
+          target="__blank"
+          rel="noopener"
+          class="cta">View my experience</a
+        >
+        <a href="#projects" class="cta">See projects</a>
+      </div>
     </div>
   </div>
 </div>
 
 <style>
-  a {
-    color: inherit;
-  }
-
   .container {
     text-align: center;
     margin-top: 40px;
   }
 
-  button {
-    background-color: #6f4b86;
-    border-color: #6f4b86;
+  .headline {
+    font-size: 2.2rem;
+    line-height: 1.3;
+    font-weight: 600;
+    max-width: 820px;
+    margin: 0 auto 2rem auto;
   }
-  button:hover {
+
+  .cta-row {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+  }
+
+  a.cta {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 2px solid #6f4b86;
+    border-radius: 4px;
+    color: #d6dbdd;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+  }
+
+  a.cta:hover,
+  a.cta:focus {
     background-color: #9b4dca;
     border-color: #9b4dca;
     color: white;
-    cursor: pointer;
+  }
+
+  a.cta-primary {
+    background-color: #6f4b86;
+    border-color: #6f4b86;
+    color: white;
+  }
+
+  @media screen and (max-width: 767px) {
+    .headline {
+      font-size: 1.6rem;
+    }
+    .cta-row {
+      flex-direction: column;
+      align-items: center;
+    }
+    a.cta {
+      width: 100%;
+      max-width: 320px;
+    }
   }
 </style>

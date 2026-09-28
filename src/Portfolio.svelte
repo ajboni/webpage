@@ -50,7 +50,7 @@
   }
 </script>
 
-<div class="container">
+<div class="container" id="projects">
   <Separator>
     <h2>Personal Projects</h2>
   </Separator>
