@@ -9,6 +9,7 @@
     "an IT infraestructure administrator",
     "a game developer",
     "a devOps engineer",
+    "an AI and agentic developer",
     "a music maker",
     "a Linux, OSS, and DIY enthusiast",
     "a curious individual",
@@ -85,13 +86,15 @@
       <p>
         I’m a <strong>problem-solving</strong> web <strong>developer</strong>
         and <strong>IT generalist</strong> with over
-        <strong>14+ years of technical expertise</strong>
+        <strong>16+ years of technical expertise</strong>
         and hands-on experience. Passionate about
         <strong>
           Javascript, self-hosting, Linux, DIY projects, and free and
           open-source software (FOSS)</strong
         >, I thrive in environments where creativity and technical curiosity
-        intersect.
+        intersect. These days I also build with
+        <strong>AI and agentic workflows</strong> where they add real value,
+        always on top of solid engineering fundamentals.
       </p>
       <a href="#contact" id="contact-btn">
         <button style="width: 150px">Contact Me!</button>

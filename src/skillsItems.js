@@ -8,7 +8,14 @@ export const skillsItems = {
     "Devops, kubernetes, docker, IaaC",
     "Wordpress, WooCommerce",
     "Unity 3D, Godot Engine",
-    "AI based dev, OpenAI, Langchain, Flowise, Langflow, Fooocus",
+    "AI-assisted development",
+  ],
+  "AI & Agentic": [
+    "LLM application development (OpenAI, Anthropic)",
+    "Agentic workflows and tool use (MCP, function calling)",
+    "RAG, embeddings and vector databases",
+    "Workflow automation (n8n, Flowise, Langflow)",
+    "AI-assisted development (Opencode, Copilot, Claude Code)",
   ],
   IT: [
     "Network And Infraestructure Design, Planning and Implementation ",

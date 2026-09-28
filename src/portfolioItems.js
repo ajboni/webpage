@@ -3,12 +3,34 @@ export const portfolioItems = [
     id: 22,
     title: "Drafft",
     description:
-      "Drafft is a collaborative design and development tool for easy and organised game development.",
+      "Drafft is a collaborative design and development tool for easy and organised game development. Alive and in active development since 2021.",
     category: "App Development",
     skills: ["React", "Mobx", "Electron", "Pouchdb", "Couchdb", "CI/CD"],
     img: "img/drafft.jpg",
     url: "https://baj.itch.io/drafft",
     icon: "img/drafft_icon.png",
+  },
+  {
+    id: 23,
+    title: "Soundef",
+    description:
+      "Declarative recipes for interactive game SFX. Layers and variation with seeds; bake to wav or play live. Forge editor included.",
+    category: "App Development",
+    skills: ["Electron", "Node.js", "TailwindCSS", "Audio", "AI / LLM"],
+    img: "img/soundef.jpg",
+    url: "https://baj.itch.io/soundef",
+    icon: "img/icons8-audio-wave-96.png",
+  },
+  {
+    id: 24,
+    title: "ScreenLamp",
+    description:
+      "Use your screen as a lightsource of customizable color for video calls, reading or recordings. Multi-monitor color sync in realtime.",
+    category: "Web Development",
+    skills: ["React", "TypeScript", "Vite", "TailwindCSS"],
+    img: "img/screenlamp.png",
+    url: "https://screenlamp.aboni.dev/",
+    icon: "img/icons8-light-on-96.png",
   },
   {
     id: 21,

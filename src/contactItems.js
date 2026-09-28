@@ -12,6 +12,12 @@ export const contactItems = [
     img: "./img/icons8-github-100.png",
   },
   {
+    id: 12,
+    title: "LinkedIn",
+    url: "https://www.linkedin.com/in/alexis-boni/",
+    img: "./img/icons8-linkedin-100.png",
+  },
+  {
     id: 11,
     title: "Blog",
     url: "https://blog.aboni.dev",
